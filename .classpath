@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="/Users/hjp/Workspace/Workshop/Library/Apache/PDFBox/lib/pdfbox-1.8.10.jar"/>
 	<classpathentry kind="lib" path="/Users/hjp/Workspace/Workshop/Library/Apache/PDFBox/lib/pdfbox-app-1.8.10.jar"/>
+	<classpathentry kind="lib" path="/Users/hjp/Workspace/Workshop/Library/Apache/OpenNLP/lib/opennlp-tools-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/hjp/Workspace/Workshop/Library/Apache/OpenNLP/lib/opennlp-uima-1.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
