@@ -58,7 +58,7 @@ public class ModifyPDFTitle {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			title = title + ".pdf";
+			title = title + "(ACL2016).pdf";
 			renameFile(filePath, title);
 		}
 	}
