@@ -1,5 +1,13 @@
 package hjp.mac.java.basis.toolkit;
 
+/*
+ * ModifyPDFTitle.cpp
+ *
+ *  Created on: Aug 10, 2014
+ *      Author: hjp
+ *      E-mail: hjp@whu.edu.cn
+ */
+
 import java.io.File;
 import java.io.IOException;
 
@@ -9,7 +17,7 @@ import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 public class ModifyPDFTitle {
 
 	public static void main(String[] args) {
-		String dirPath = "../Downloads/";
+		String dirPath = "/Users/hjp/Downloads/";
 		listFile(dirPath);
 	}
 
@@ -50,7 +58,7 @@ public class ModifyPDFTitle {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			title = title + "(NAACL2016).pdf";
+			title = title + ".pdf";
 			renameFile(filePath, title);
 		}
 	}
