@@ -17,7 +17,7 @@ import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 public class ModifyPDFTitle {
 
 	public static void main(String[] args) {
-		String dirPath = "/Users/hjp/Downloads/";
+		String dirPath = "F:\\Downloads\\Temporary\\";
 		listFile(dirPath);
 	}
 
@@ -58,7 +58,7 @@ public class ModifyPDFTitle {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			title = title + "(EMNLP2016).pdf";
+			title = title + "(NIPS2016).pdf";
 			renameFile(filePath, title);
 		}
 	}
